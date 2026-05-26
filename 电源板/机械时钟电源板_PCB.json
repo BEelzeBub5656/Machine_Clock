@@ -1,0 +1,62 @@
+{
+  "head": "3~1.11.3~~",
+  "canvas": "CA~354~300~#000000~yes~#FFFFFF~10~177~150~line~1~mil~1~45~visible~0.5~6~6",
+  "systemColor": "#000000~#FFFFFF~#FFFFFF~#000000~#FFFFFF",
+  "layers": [
+    "1~TopLayer~#FF0000~true~true~true",
+    "2~BottomLayer~#0000FF~true~false~true",
+    "3~TopSilkLayer~#FFCC00~true~false~true",
+    "10~BoardOutline~#FF00FF~true~false~true",
+    "11~Multi-Layer~#C0C0C0~true~false~true"
+  ],
+  "DRCRULE": {
+    "trackWidth": 1,
+    "track2Track": 1,
+    "pad2Pad": 1,
+    "track2Pad": 1,
+    "hole2Hole": 2,
+    "holeSize": 2
+  },
+  "shape": [
+    "LIB~20~47~package`HDR-2.54-2P`pre`J1`~0~0~gge145~2#@$PAD~OVAL~15~47~6~6~11~GND~1~2~~0~gge146~~~Y#@$PAD~OVAL~25~47~6~6~11~5V_RAW~2~2~~0~gge147~~~Y#@$RECT~4~39~31~16~3~gge148",
+    "LIB~63~47~package`IND-8X12MM`pre`L1`~0~0~gge149~2#@$PAD~OVAL~53~47~8~8~11~5V_RAW~1~2~~0~gge150~~~Y#@$PAD~OVAL~73~47~8~8~11~5V_FILT~2~2~~0~gge151~~~Y#@$CIRCLE~63~47~20~1~3~gge152",
+    "LIB~118~47~package`CAP-DIP-10X16MM`pre`C1`~0~0~gge153~2#@$PAD~OVAL~108~47~10~10~11~5V_FILT~1~2~~0~gge154~~~Y#@$PAD~OVAL~128~47~10~10~11~GND~2~2~~0~gge155~~~Y#@$CIRCLE~118~47~22~1~3~gge156",
+    "LIB~161~47~package`HDR-2.54-2P`pre`J2`~0~0~gge157~2#@$PAD~OVAL~156~47~6~6~11~GND~1~2~~0~gge158~~~Y#@$PAD~OVAL~166~47~6~6~11~5V_FILT~2~2~~0~gge159~~~Y#@$RECT~145~39~31~16~3~gge160",
+    "LIB~20~94~package`HDR-2.54-2P`pre`J4`~0~0~gge161~2#@$PAD~OVAL~15~94~6~6~11~GND~1~2~~0~gge162~~~Y#@$PAD~OVAL~25~94~6~6~11~5V_RAW~2~2~~0~gge163~~~Y#@$RECT~4~86~31~16~3~gge164",
+    "LIB~55~94~package`CAP-DIP-6.3X11MM`pre`C2`~0~0~gge165~2#@$PAD~OVAL~49~94~8~8~11~5V_RAW~1~2~~0~gge166~~~Y#@$PAD~OVAL~61~94~8~8~11~GND~2~2~~0~gge167~~~Y#@$CIRCLE~55~94~16~1~3~gge168",
+    "LIB~106~94~package`HDR-2.54-3P-F`pre`U1`~0~0~gge169~3#@$PAD~OVAL~96~94~6~6~11~5V_RAW~1~2~~0~gge170~~~Y#@$PAD~OVAL~106~94~6~6~11~GND~2~2~~0~gge171~~~Y#@$PAD~OVAL~116~94~6~6~11~3.3V~3~2~~0~gge172~~~Y#@$RECT~78~78~55~31~3~gge173",
+    "LIB~142~94~package`CAP-DIP-6.3X11MM`pre`C3`~0~0~gge174~2#@$PAD~OVAL~136~94~8~8~11~3.3V~1~2~~0~gge175~~~Y#@$PAD~OVAL~148~94~8~8~11~GND~2~2~~0~gge176~~~Y#@$CIRCLE~142~94~16~1~3~gge177",
+    "LIB~106~74~package`CAP-0805`pre`C4`~0~0~gge178~2#@$PAD~RECT~102~74~5~6~1~5V_RAW~1~0~~0~gge179~~~Y#@$PAD~RECT~110~74~5~6~1~GND~2~0~~0~gge180~~~Y#@$RECT~98~70~16~8~3~gge181",
+    "LIB~142~74~package`CAP-0805`pre`C5`~0~0~gge182~2#@$PAD~RECT~138~74~5~6~1~3.3V~1~0~~0~gge183~~~Y#@$PAD~RECT~146~74~5~6~1~GND~2~0~~0~gge184~~~Y#@$RECT~134~70~16~8~3~gge185",
+    "LIB~161~94~package`HDR-2.54-2P`pre`J3`~0~0~gge186~2#@$PAD~OVAL~156~94~6~6~11~GND~1~2~~0~gge187~~~Y#@$PAD~OVAL~166~94~6~6~11~3.3V~2~2~~0~gge188~~~Y#@$RECT~145~86~31~16~3~gge189",
+    "TRACK~8~1~5V_RAW~25 47 53 47~gge190",
+    "TRACK~4~1~5V_RAW~53 47 53 94 25 94~gge191",
+    "TRACK~8~1~5V_FILT~73 47 108 47~gge192",
+    "TRACK~8~1~5V_FILT~73 47 166 47~gge193",
+    "TRACK~6~1~5V_RAW~53 47 49 94~gge194",
+    "TRACK~4~1~5V_RAW~53 51 102 74~gge195",
+    "TRACK~6~1~5V_RAW~53 47 53 94 96 94~gge196",
+    "TRACK~6~1~3.3V~116 94 116 94 136 94~gge197",
+    "TRACK~6~1~3.3V~116 94 166 94 166 94~gge198",
+    "TRACK~4~1~3.3V~116 94 138 94 138 74~gge199",
+    "TRACK~1~10~~6 6 171 6 171 144 6 144 6 6~gge200",
+    "COPPERAREA~1~2~GND~8 8 169 8 169 142 8 142~2~solid~gge201~spoke~yes~[]",
+    "TEXT~L~8~31~1~0~none~3~~6~5V_IN~~gge202",
+    "TEXT~L~8~78~1~0~none~3~~6~5V_LOGIC~~gge203",
+    "TEXT~L~98~23~1~0~none~3~~6~5V_SERVO~~gge204",
+    "TEXT~L~149~78~1~0~none~3~~6~3.3V~~gge205",
+    "TEXT~L~67~122~1~0~none~3~~6~AMS1117~~gge206",
+    "TEXT~L~71~125~1~0~none~3~~6~PWR v2.0~~gge207"
+  ],
+  "BBox": {
+    "x": 0,
+    "y": 0,
+    "width": 177,
+    "height": 150
+  },
+  "preference": {
+    "hideNets": "",
+    "hideFootprints": ""
+  },
+  "netColors": {}
+}
