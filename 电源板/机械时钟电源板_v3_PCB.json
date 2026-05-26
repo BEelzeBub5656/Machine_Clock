@@ -1,0 +1,59 @@
+{
+  "head": "3~1.11.3~~",
+  "canvas": "CA~276~217~#000000~yes~#FFFFFF~10~128~98~line~1~mil~1~45~visible~0.5~6~6",
+  "systemColor": "#000000~#FFFFFF~#FFFFFF~#000000~#FFFFFF",
+  "layers": [
+    "1~TopLayer~#FF0000~true~true~true",
+    "2~BottomLayer~#0000FF~true~false~true",
+    "3~TopSilkLayer~#FFCC00~true~false~true",
+    "10~BoardOutline~#FF00FF~true~false~true",
+    "11~Multi-Layer~#C0C0C0~true~false~true"
+  ],
+  "DRCRULE": {
+    "trackWidth": 1,
+    "track2Track": 1,
+    "pad2Pad": 1,
+    "track2Pad": 1,
+    "hole2Hole": 2,
+    "holeSize": 2
+  },
+  "shape": [
+    "LIB~20~47~package`KF128-2P`pre`J1`~0~0~gge1~2#@$PAD~RECT~12~47~16~16~11~GND~1~2~~0~gge2~~~Y#@$PAD~RECT~32~47~16~16~11~5V_RAW~2~2~~0~gge3~~~Y#@$RECT~4~19~63~55~3~gge4#@$T~L~4~8~1~0~none~3~~3~5V_IN 10A~~gge5",
+    "LIB~87~47~package`IND-TOROID-16MM`pre`L1`~0~0~gge6~2#@$PAD~OVAL~79~47~16~16~11~5V_RAW~1~2~~0~gge7~~~Y#@$PAD~OVAL~95~47~16~16~11~5V_FILT~2~2~~0~gge8~~~Y#@$CIRCLE~87~47~35~1~3~gge9#@$T~L~63~4~1~0~none~3~~3~10uH/10A~~gge10",
+    "LIB~157~47~package`CAP-DIP-10X16MM`pre`C1`~0~0~gge11~2#@$PAD~OVAL~153~47~12~12~11~5V_FILT~1~2~~0~gge12~~~Y#@$PAD~OVAL~161~47~12~12~11~GND~2~2~~0~gge13~~~Y#@$CIRCLE~157~47~24~1~3~gge14#@$T~L~137~8~1~0~none~3~~3~470uF/16V~~gge15",
+    "LIB~217~47~package`KF128-2P`pre`J2`~0~0~gge16~2#@$PAD~RECT~209~47~16~16~11~GND~1~2~~0~gge17~~~Y#@$PAD~RECT~229~47~16~16~11~5V_FILT~2~2~~0~gge18~~~Y#@$RECT~201~19~63~55~3~gge19#@$T~L~201~8~1~0~none~3~~3~5V_SERVO 10A~~gge20",
+    "LIB~268~47~package`HDR-2.54-2P`pre`J5`~0~0~gge21~2#@$PAD~OVAL~268~47~6~6~11~GND~1~2~~0~gge22~~~Y#@$PAD~OVAL~278~47~6~6~11~5V_FILT~2~2~~0~gge23~~~Y#@$RECT~260~31~31~31~3~gge24#@$T~L~260~19~1~0~none~3~~3~5V_SPARE~~gge25",
+    "LIB~20~118~package`HDR-2.54-2P`pre`J4`~0~0~gge26~2#@$PAD~OVAL~20~118~6~6~11~GND~1~2~~0~gge27~~~Y#@$PAD~OVAL~30~118~6~6~11~5V_RAW~2~2~~0~gge28~~~Y#@$RECT~12~102~31~31~3~gge29#@$T~L~12~90~1~0~none~3~~3~5V_LOGIC~~gge30",
+    "LIB~59~118~package`CAP-DIP-6.3X11MM`pre`C2`~0~0~gge31~2#@$PAD~OVAL~57~118~10~10~11~5V_RAW~1~2~~0~gge32~~~Y#@$PAD~OVAL~61~118~10~10~11~GND~2~2~~0~gge33~~~Y#@$CIRCLE~59~118~18~1~3~gge34#@$T~L~43~87~1~0~none~3~~3~100uF/16V~~gge35",
+    "LIB~102~118~package`HDR-2.54-3P-F`pre`U1`~0~0~gge36~3#@$PAD~OVAL~102~118~6~6~11~5V_RAW~1~2~~0~gge37~~~Y#@$PAD~OVAL~112~118~6~6~11~GND~2~2~~0~gge38~~~Y#@$PAD~OVAL~122~118~6~6~11~3.3V~3~2~~0~gge39~~~Y#@$RECT~82~87~87~63~3~gge40#@$T~L~82~75~1~0~none~3~~3~AMS1117-3.3V~~gge41",
+    "LIB~161~118~package`CAP-DIP-6.3X11MM`pre`C3`~0~0~gge42~2#@$PAD~OVAL~159~118~10~10~11~3.3V~1~2~~0~gge43~~~Y#@$PAD~OVAL~163~118~10~10~11~GND~2~2~~0~gge44~~~Y#@$CIRCLE~161~118~16~1~3~gge45#@$T~L~145~87~1~0~none~3~~3~10uF/10V~~gge46",
+    "LIB~209~118~package`HDR-2.54-2P`pre`J3`~0~0~gge47~2#@$PAD~OVAL~209~118~6~6~11~GND~1~2~~0~gge48~~~Y#@$PAD~OVAL~219~118~6~6~11~3.3V~2~2~~0~gge49~~~Y#@$RECT~201~102~31~31~3~gge50#@$T~L~201~90~1~0~none~3~~3~3.3V OUT~~gge51",
+    "LIB~248~118~package`HDR-2.54-2P`pre`J6`~0~0~gge52~2#@$PAD~OVAL~248~118~6~6~11~GND~1~2~~0~gge53~~~Y#@$PAD~OVAL~258~118~6~6~11~3.3V~2~2~~0~gge54~~~Y#@$RECT~240~102~31~31~3~gge55#@$T~L~240~90~1~0~none~3~~3~3.3V SPARE~~gge56",
+    "LIB~94~87~package`CAP-0805`pre`C4`~0~0~gge57~2#@$PAD~RECT~92~87~5~6~1~5V_RAW~1~0~~0~gge58~~~Y#@$PAD~RECT~96~87~5~6~1~GND~2~0~~0~gge59~~~Y#@$RECT~86~83~16~8~3~gge60#@$T~L~86~97~1~0~none~3~~3~0.1uF~~gge61",
+    "LIB~150~87~package`CAP-0805`pre`C5`~0~0~gge62~2#@$PAD~RECT~148~87~5~6~1~3.3V~1~0~~0~gge63~~~Y#@$PAD~RECT~152~87~5~6~1~GND~2~0~~0~gge64~~~Y#@$RECT~142~83~16~8~3~gge65#@$T~L~142~97~1~0~none~3~~3~0.1uF~~gge66",
+    "TRACK~20~1~5V_RAW~40 47 87 47~gge67",
+    "TRACK~4~1~5V_RAW~40 47 40 128 30 128~gge68",
+    "TRACK~4~1~5V_RAW~40 47 40 94 59 94 59 118~gge69",
+    "TRACK~4~1~5V_RAW~59 118 102 118 102 118~gge70",
+    "TRACK~4~1~5V_RAW~102 118 102 87 94 87~gge71",
+    "TRACK~20~1~5V_FILT~95 47 157 47 237 47 278 47~gge72",
+    "TRACK~2~1~3.3V~122 118 161 118 161 118~gge73",
+    "TRACK~2~1~3.3V~161 118 219 118 219 118 258 118~gge74",
+    "TRACK~2~1~3.3V~122 118 150 118 150 87~gge75",
+    "TRACK~1~10~~4 4 260 4 260 201 4 201 4 4~gge76",
+    "COPPERAREA~1~2~GND~4 4 260 4 260 201 4 201~2~solid~gge77~spoke~yes~[]",
+    "TEXT~L~12~12~1~0~none~3~~3~PWR v3.0 30xSG90 10A 2oz~~gge78",
+    "TEXT~L~110~181~1~0~none~3~~3~STAR GND - Bottom Cu Pour~~gge79"
+  ],
+  "BBox": {
+    "x": 0,
+    "y": 0,
+    "width": 264,
+    "height": 205
+  },
+  "preference": {
+    "hideNets": "",
+    "hideFootprints": ""
+  },
+  "netColors": {}
+}

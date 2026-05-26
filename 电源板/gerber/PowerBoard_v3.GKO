@@ -1,0 +1,14 @@
+%FSLAX44Y44*%
+%MOMM*%
+%TF.GenerationSoftware,ClaudeCode,GerberGenerator*%
+%TF.Part,Single*%
+%TF.JobID,PowerBoard_v3*%
+G04 Board Outline - Power Board v3.0*
+%ADD10C,0.1000*%
+D10*
+X10160Y10160D02*
+X660400Y10160D01*
+X660400Y510540D01*
+X10160Y510540D01*
+X10160Y10160D01*
+M02*
