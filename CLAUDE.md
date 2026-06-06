@@ -52,3 +52,26 @@ D:\AAAend\STM32\丁真时钟\
 
 在 C:\Users\73449\.claude.json 配置了:
 - chrome-devtools, playwright, filesystem, firecrawl, cloud-hermes
+
+## DS1302 晶振偏差补偿 (2026-05-29 新增)
+
+### 问题
+DS1302 精度由 32.768kHz 晶振决定，普通±20ppm → 月差±1分钟。
+成品硬件无法改动，用软件补偿。
+
+### 方案
+每隔 CORRECTION_INTERVAL_H 小时（默认24），自动从 DS1302 时间中扣掉
+累积分偏差，写回 DS1302。利用 DS1302 电池后备 RAM (0xC0-0xC2) 存储
+修正状态，MCU 断电重启不丢。
+
+### 文件
+- `Hardware/ds1302_compensation.h` — 配置宏 `CORRECTION_SECONDS_PER_DAY`、间隔、触发时刻
+- `Hardware/ds1302_compensation.c` — 核心逻辑：RAM 读写、偏差计算、时间回写
+- `User/main.c` — 已集成 `ds1302_compensation_init()` + `ds1302_compensation_tick()`
+
+### 使用
+1. 设 `CORRECTION_SECONDS_PER_DAY = 0`（关闭补偿），跑一周
+2. 记录总偏差 → 换算：`CORRECTION_SECONDS_PER_DAY = 总偏差秒数 / 天数`
+   （正数=DS1302偏快需减去，负数=偏慢需加上）
+3. 修改宏值，重新编译烧录
+4. 程序自动每天凌晨3:00修正
